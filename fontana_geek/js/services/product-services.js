@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3000/products";
+const BASE_URL = "http://localhost:3001/products";
 
 const productList = async () => {
   try {
