@@ -29,13 +29,13 @@
 1. Clona este repositorio:
 
    ```bash
-   git clone https://github.com/tuusuario/alurageek.git
+   git clone https://github.com/SantiFontana04/Fontana-Geek.git
    ```
 
 2. Navega al directorio del proyecto:
 
    ```bash
-   cd alurageek
+   cd Fontana-Geek
    ```
 
 3. Instala las dependencias:
