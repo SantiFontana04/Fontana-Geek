@@ -8,18 +8,17 @@ body {
     height: 100vh;
 }
 
-/* Estiliza a barra de rolagem */
 body::-webkit-scrollbar {
-    width: 8px; /* Largura da barra de rolagem */
+    width: 8px;
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #ccc; /* Cor do polegar (a parte móvel) */
-    border-radius: 4px; /* Borda arredondada do polegar */
+    background-color: #ccc;
+    border-radius: 4px; 
 }
 
 body::-webkit-scrollbar-track {
-    background-color: #f1f1f1; /* Cor da faixa de rolagem (a parte fixa) */
+    background-color: #f1f1f1;
 }
 
 img {
@@ -27,7 +26,7 @@ img {
     height: auto;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Press Start 2P';
     text-align: center;
 }
@@ -67,7 +66,8 @@ footer {
     display: flex;
     justify-content: center;
     padding: 1rem;
-    background-color: #5300C8;
+    background-color: #48e;
+    color: #fff;
 }
 
 
@@ -99,7 +99,7 @@ footer {
     padding: 2rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 1rem;
 }
 
@@ -118,17 +118,16 @@ footer {
 }
 
 .card {
-    background-color: #9747FF;
+    background-color: #48e;
     color:#FFFFFF ;
     width: calc(100%/4);
     padding: 10px;
     border-radius: 5px;
-    border: 3px solid #000000;
+    box-shadow: 0 0 5px #0007;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-
 
 .card-container--info{
     display: flex;
@@ -144,18 +143,14 @@ footer {
     justify-content: space-between;
 }
 
-.img-container{
-    border-color:3px #000000;
-}
-
 .form-container{
     padding: 2rem 0;
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:40px;
+    gap: 25px;
     flex-direction: column;
 }
 
@@ -166,22 +161,24 @@ footer {
 
 .button-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     min-width: 100%;
 }
 
 .button-submit{
     background-color: #03318C;
     color:#FFFFFF ;
+    font-weight: 900;
 }
 
 .button-clear{
     background-color: #FFFFFF;
     color:#03318C ;
+    font-weight: 900;
 }
 
 .footer-container {
-    background-color: #5300C8;
+    background-color: #48e;
     display: flex;
     flex-direction: column;
     align-items: center;
